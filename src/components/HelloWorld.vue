@@ -7,7 +7,7 @@
         <i class="fas fa-microphone" v-bind:class="{ recording }"></i>
       </div>
     </div>
-    <h3>{{ speed }}ms</h3>
+    <h4>Uses <a href="https://github.com/lkennxyz/azure-stt-helper">@lkennxyz/azure-stt-helper</a> to make make the request to azure, and <a href="https://recordrtc.org/">RecordRTC.js</a> for recording.</h4>
   </div>
 </template>
 
