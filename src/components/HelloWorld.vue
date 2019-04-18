@@ -31,7 +31,8 @@ export default {
   },
   async mounted() {
     this.stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    const subscriptionKey = process.env.SUBSCRIPTION_KEY;
+    console.log(process.env);
+    const subscriptionKey = process.env.VUE_APP_SUBSCRIPTION_KEY;
     this.token = await getToken({ region: this.region, subscriptionKey });
   },
   methods: {
