@@ -1,29 +1,8 @@
 # azure-speech-test
 
-## Project setup
-```
-yarn install
-```
+An example use of [azure-stt-helper](https://github.com/lkennxyz/azure-stt-helper), usable [here](https://sst-example.kenn.dev).
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Getting Started
+* To use locally, clone and use `yarn serve`.
+* To create a build version run `yarn build`.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
